@@ -1,0 +1,13 @@
+# Query: review.p
+# ContextLines: 1
+
+2 results - 1 file
+
+html/js/review_func.js:
+   4  		// Chose here which method to send the email, available:
+   5: 		// Simple phpmail text/plain > review.php (default)
+   6  		// Phpmaimer text/html > phpmailer/review_phpmailer.php
+
+   9  		// PHPmailer with html template SMTP> phpmailer/review_phpmailer_template_smtp.php
+  10: 		$('form#wrapped').attr('action', 'https://codepen.io/rt-raagas/project/live/58f0fb6d928b7c58a47afa021db53ab0');
+  11  		$("#wizard_container").wizard({
